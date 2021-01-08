@@ -8,8 +8,6 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ProductDetailGuard } from './product-detail.guard';
 
-
-
 @NgModule({
   declarations: [
     ProductListComponent,
@@ -30,4 +28,5 @@ import { ProductDetailGuard } from './product-detail.guard';
     ])
   ]
 })
+
 export class ProductModule { }
